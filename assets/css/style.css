@@ -187,3 +187,41 @@ article small {
     color: #17abb3;
     align-self: center;
 }
+
+/*style footer*/
+
+footer {
+    background-color: #17abb3;
+    width: 1160px;
+    height: fit-content;
+    margin-top: 0;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-icon:hover {
+    opacity: 0.5;
+}
+
+footer small {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
