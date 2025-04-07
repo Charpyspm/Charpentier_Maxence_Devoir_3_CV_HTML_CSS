@@ -83,6 +83,8 @@ h3 {
     padding-left: 10%;
 }
 
+/*style aside*/
+
 .stars {
     color: #17abb3;
 }
@@ -123,4 +125,49 @@ li::before {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+}
+
+/*style section*/
+
+section {
+    border: 1px dashed green;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    border: 2px dashed blue;
+}
+
+.presentation {
+    border: 2px solid red;
+    margin-left: 10%;
+    width: 80%;
+    text-align: justify;
+    text-indent: 3em;
+}
+
+h4 {
+    border: 2px solid yellow;
+    width: fit-content;
+    margin-left: 10%;
+    margin-bottom: 0;
+}
+
+article small {
+    border: 1px solid green;
+    margin-left: 10%;
+    margin-top: 0;
+}
+
+.date {
+    border: 1px solid red;
+    width: fit-content;
+    color: #17abb3;
+}
+
+.cef, .bac, .first-exp, .second-exp {
+    border: 2px dashed pink;
+    
+
 }
