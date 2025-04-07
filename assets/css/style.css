@@ -1,0 +1,189 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+/*style de la partie header*/
+h1, h2 {
+    color: #ffffff;
+}
+
+header {
+    background-color: #17abb3;
+    width: 1160px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profil-pict {
+    border: 1px solid red;
+    width: fit-content;
+}
+
+.profil-picture {
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+}
+
+.profil-info {
+    border: 1px solid red;
+    width: fit-content;
+
+}
+
+.profil-title {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil-link {
+    border: 1px dashed green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.link {
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+.icon {
+   padding-right: 5px;
+}
+
+a {
+    border: 2px solid yellow;
+}
+
+
+/*style de la partie main*/
+
+main {
+    width: 1160px;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+h3 {
+    color: #17abb3;
+    padding-left: 10%;
+}
+
+/*style aside*/
+
+.stars {
+    color: #17abb3;
+}
+
+hr {
+    width: 80%;
+    color: #f5f5f5;
+}
+
+aside {
+    background-color: #e3e3e3;
+    border: 1px solid red;
+    width: 30%;
+}
+
+.aside {
+    border: 1px dashed blue;
+    display: flex;
+    justify-content: center;
+}
+
+table, tr, td {
+    border: 1px solid violet;
+    width: 80%;
+}
+
+.level {
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    content: "\25AA";
+    color: #17abb3;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/*style section*/
+
+section {
+    border: 1px dashed green;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    border: 2px dashed blue;
+}
+
+.presentation {
+    border: 2px solid red;
+    margin-left: 10%;
+    width: 80%;
+    text-align: justify;
+    text-indent: 3em;
+}
+
+article small {
+    border: 1px solid green;
+    margin-left: 10%;
+    margin-top: 0;
+    align-self: flex-start;
+}
+
+.date {
+    border: 1px solid red;
+    width: fit-content;
+    color: #17abb3;
+}
+
+.div-container {
+    border: 2px dashed pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
+}
+
+.div-container h4 {
+    margin: 0;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.div-container small {
+    margin: 0;
+    margin-left: 10%;
+}
+
+.div-container .date {
+    margin: 0;
+    margin-right: 10%;
+    color: #17abb3;
+    align-self: center;
+}
