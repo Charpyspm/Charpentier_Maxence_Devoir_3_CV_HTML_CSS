@@ -33,7 +33,35 @@ header {
 
 }
 
+.profil-title {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil-link {
+    border: 1px dashed green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.link {
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
 .icon {
-    width: 15px;
-    height: 15px;
+   padding-right: 5px;
+}
+
+a {
+    border: 2px solid yellow;
 }
