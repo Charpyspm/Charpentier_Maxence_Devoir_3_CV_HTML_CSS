@@ -147,17 +147,19 @@ article {
     text-indent: 3em;
 }
 
-h4 {
+/*h4 {
     border: 2px solid yellow;
     width: fit-content;
     margin-left: 10%;
     margin-bottom: 0;
-}
+    align-self: center;
+}*/
 
 article small {
     border: 1px solid green;
     margin-left: 10%;
     margin-top: 0;
+    align-self: flex-start;
 }
 
 .date {
@@ -166,8 +168,30 @@ article small {
     color: #17abb3;
 }
 
-.cef, .bac, .first-exp, .second-exp {
+.div-container {
     border: 2px dashed pink;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
 
+}
+
+.div-container h4 {
+    margin: 0;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.div-container small {
+    margin: 0;
+    margin-left: 10%;
+}
+
+.div-container .date {
+    margin: 0;
+    margin-right: 10%;
+    color: #17abb3;
+    align-self: center;
 }
