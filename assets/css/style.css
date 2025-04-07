@@ -3,6 +3,7 @@ html {
     justify-content: center;
 }
 
+/*style de la partie header*/
 h1, h2 {
     color: #ffffff;
 }
@@ -64,4 +65,62 @@ header {
 
 a {
     border: 2px solid yellow;
+}
+
+
+/*style de la partie main*/
+
+main {
+    width: 1160px;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+h3 {
+    color: #17abb3;
+    padding-left: 10%;
+}
+
+.stars {
+    color: #17abb3;
+}
+
+hr {
+    width: 80%;
+    color: #f5f5f5;
+}
+
+aside {
+    background-color: #e3e3e3;
+    border: 1px solid red;
+    width: 30%;
+}
+
+.aside {
+    border: 1px dashed blue;
+    display: flex;
+    justify-content: center;
+}
+
+table, tr, td {
+    border: 1px solid violet;
+    width: 80%;
+}
+
+.level {
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    content: "\25AA";
+    color: #17abb3;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
